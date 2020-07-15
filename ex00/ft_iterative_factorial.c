@@ -33,8 +33,8 @@ int	ft_iterative_factorial(int nb)
 	{
 		fact = fact * (nb - 1); 
 			nb--;
-		//ft_putnbr(fact);
-		//ft_putchar('\n');
+		ft_putnbr(fact);
+		ft_putchar('\n');
 		i++;
 	}
 	return fact;
